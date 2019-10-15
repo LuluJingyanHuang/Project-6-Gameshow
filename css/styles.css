@@ -17,7 +17,10 @@
 }
 
 /* main */
+a:hover {
+  cursor:pointer;
 
+}
 * {
   box-sizing: border-box;
 }
@@ -69,6 +72,10 @@ button {
   padding: 10px;
 }
 
+
+
+
+
 /* Title */
 
 .header {
@@ -81,8 +88,8 @@ button {
   font-size: var(--font-size-medium);
   height: 65px;
   width: 65px;
-  padding: 20px 1px 0 1px;
-  margin-right: 2px;
+  padding: 10px 1px 10px 1px;
+  margin-right: 5px;
   color: transparent;
   background: var(--color-neutral-light);
   border-radius: 5px;
@@ -94,7 +101,8 @@ button {
 
 .show {
   color: #000;
-  background-color: #76CE82;
+  background-color: white;
+  font-size:5em;
 }
 
 /* Keyboard */
@@ -132,6 +140,7 @@ button {
   left: 0;
   right: 0;
   border-radius: 5px;
+  transition: visibility 1s, opacity 0.5s linear;
 }
 
 .title {
@@ -160,4 +169,9 @@ button {
 
 .lose a {
   color: var(--color-lose);
+}
+
+.tries{
+  padding:0px 5px;
+
 }
