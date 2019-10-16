@@ -71,7 +71,7 @@ function checkWin (){
         startButton.style.display='none';
       }else if (document.querySelectorAll('.show').length == split.length){
         startScreen.style.display='';
-        startScreen.classList.add('Win');
+        startScreen.classList.add('win');
         title.textContent = "You win!";
         startButton.style.display='none';
       }
