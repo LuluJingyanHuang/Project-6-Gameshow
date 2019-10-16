@@ -84,9 +84,8 @@ function letterClicked(){
           var clicked= event.target.textContent;
           if (split.indexOf(clicked)<0){
             missed += 1;
-
             lives[missed-1].parentNode.removeChild(lives[missed-1]);
-
+            checkWin();
           }
           for (var i=0; i<split.length;i+=1){
               if (split[i] ===clicked){
