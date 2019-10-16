@@ -85,14 +85,16 @@ button {
 /* Phrase */
 
 .letter {
-  font-size: var(--font-size-medium);
-  height: 65px;
-  width: 65px;
-  padding: 10px 1px 10px 1px;
-  margin-right: 5px;
-  color: transparent;
-  background: var(--color-neutral-light);
-  border-radius: 5px;
+
+    font-size: var(--font-size-medium);
+    height: 65px;
+    width: 65px;
+    padding: 20px 1px 0 1px;
+    margin-right: 2px;
+    color: transparent;
+    background: var(--color-neutral-light);
+    border-radius: 5px;
+  }
 }
 
 .space {
@@ -142,6 +144,21 @@ button {
   border-radius: 5px;
   transition: visibility 1s, opacity 0.5s linear;
 }
+
+.big {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  color: #FFFFFF;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
+  transition: visibility 1s, opacity 0.5s linear;
+}
+
 
 .title {
   color: #FFF;
